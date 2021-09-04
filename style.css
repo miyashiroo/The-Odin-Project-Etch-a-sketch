@@ -1,0 +1,48 @@
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+button {
+    display: flex;
+    align-content: center;
+    
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
+    padding: 10px;
+    background-color: #2196F3;
+    
+}
+
+
+.hover-red {
+    background-color: pink;
+
+ }
+.grid-item {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    background-color: rgba(139, 137, 247, 0.8);
+
+}
+
+.grid-item:hover {
+    background-color: red;
+
+
+ }
+
+ 
